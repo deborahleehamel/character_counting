@@ -1,4 +1,4 @@
-class AcceptanceTest < Minitest::Test
+class AcceptanceTest < MiniTest::Test
   def test_aaabbcc_example
     printed = `ruby lib/count_characters.rb aaabbc`
     expected = "a: 3\n" +
